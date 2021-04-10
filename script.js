@@ -14,7 +14,7 @@ const generateFact = () => {
         let tempDate = val.split('-');
         val = tempDate[1] + '/' + tempDate[2];
     }
-    const url = `http://numbersapi.com/${val}/${type}`;
+    const url = `https://numbersapi.com/${val}/${type}`;
     fetch(url)
         .then(response => response.text())
         .then(data => {
