@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to right, rgb(15, 207, 210), rgb(132, 26, 203));
+}
+#formDiv, #submitButton {
+    display: block;
+    text-align: center;
+}
+form, button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+button {
+    width: 10%;
+}
